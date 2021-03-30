@@ -9,22 +9,22 @@
     height: 1200px;
     border: 3px solid black;
 }
-.virsutine_eilute {display: flex;
-    flex-direction: row;
+.eilute {display: flex;
+    
 }
 
-.kaire{
+.kaire_tuscia {
     /* float: left; */
     border: 3px solid red;
     height: calc(120px / 2);
     width: calc(120px / 2);
 }
-.vidurys {
+.vidurys_raides {
     border: 1px solid blue;
     height: calc(120px / 2);
     width: calc(1200px - 120px);
 }
-.desine {
+.desine_tuscia {
     border: 3px solid red;
     height: calc(120px / 2);
     width: calc(120px / 2);
@@ -37,9 +37,9 @@
     width: calc(1080px / 8);
     border: 3px solid green;
 }
-.antra_eile {
-    display: flex;
-    flex-direction: row;
+.langeliai { height: calc(1080px / 8) ;
+    width: calc(1080px / 8);
+    border: 3px solid green;
 }
 .antra_kaire {
     border: 3px solid red;
@@ -55,4 +55,8 @@
     border: 3px solid red;
     height: calc(1080px / 8);
     width: calc(120px / 2);
+}
+
+.trecia_vidurys {height: calc(1080px / 8);
+    width: calc(1200px - 240px);
 }
