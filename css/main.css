@@ -3,60 +3,49 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    
 }
 .lenta_border {    width: 1200px;
     height: 1200px;
     border: 3px solid black;
 }
-.eilute {display: flex;
-    
+.eilute , .vidurys_eilute {
+    display: flex;    
 }
-
-.kaire_tuscia {
-    /* float: left; */
+.desine_tuscia , .kaire_tuscia {
     border: 3px solid red;
     height: calc(120px / 2);
     width: calc(120px / 2);
-}
-.vidurys_raides {
-    border: 1px solid blue;
-    height: calc(120px / 2);
-    width: calc(1200px - 120px);
-}
-.desine_tuscia {
-    border: 3px solid red;
-    height: calc(120px / 2);
-    width: calc(120px / 2);
-}
-.virsus_raides {
-    display: flex;
 }
 .raides {
     height: calc(120px / 2);
     width: calc(1080px / 8);
     border: 3px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 70px;
+    text-transform: uppercase;
 }
 .langeliai { height: calc(1080px / 8) ;
     width: calc(1080px / 8);
     border: 3px solid green;
 }
-.antra_kaire {
-    border: 3px solid red;
-    height: calc(1080px / 8);
-    width: calc(120px / 2);
-}
-.antra_vidurys {
+.eilute_vidurys {
     border: 1px solid blue;
     height: calc(1080px / 8);
     width: calc(1200px - 120px);
 }
-.antra_desine {
+.antra_desine , .skaiciu_kaire {
     border: 3px solid red;
     height: calc(1080px / 8);
     width: calc(120px / 2);
+    display: flex;
+align-items: center;
+justify-content: center;
 }
 
-.trecia_vidurys {height: calc(1080px / 8);
-    width: calc(1200px - 240px);
+.sriftas {
+    font-weight: 500;
+    font-size: 70px;
 }
