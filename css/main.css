@@ -8,18 +8,16 @@
     height: 1200px;
     border: 3px solid black;
 }
-.eilute , .vidurys_eilute {
+.eilute , .vidurys_eilute, .langeliai, .langeliai1 {
     display: flex;    
 }
 .desine_tuscia , .kaire_tuscia {
-    border: 3px solid red;
     height: calc(120px / 2);
     width: calc(120px / 2);
 }
 .raides {
     height: calc(120px / 2);
     width: calc(1080px / 8);
-    border: 3px solid green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,17 +25,15 @@
     font-size: 70px;
     text-transform: uppercase;
 }
-.langeliai { height: calc(1080px / 8) ;
+.langeliai, .langeliai1 { 
+    height: calc(1080px / 8) ;
     width: calc(1080px / 8);
-    border: 3px solid green;
 }
 .eilute_vidurys {
-    border: 1px solid blue;
     height: calc(1080px / 8);
     width: calc(1200px - 120px);
 }
 .antra_desine , .skaiciu_kaire {
-    border: 3px solid red;
     height: calc(1080px / 8);
     width: calc(120px / 2);
     display: flex;
@@ -49,3 +45,12 @@ justify-content: center;
     font-weight: 500;
     font-size: 70px;
 }
+
+.langeliai:nth-of-type(2n) {
+    background-color: black;
+}
+.langeliai1 {background-color: black;}
+.langeliai1:nth-of-type(2n) {
+    background-color: white;
+}
+
